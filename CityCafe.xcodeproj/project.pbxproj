@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3DBB922588AB8D00CEF798 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DBB912588AB8D00CEF798 /* DetailViewController.swift */; };
 		EC91B17825885E2D00C7069C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B17725885E2D00C7069C /* AppDelegate.swift */; };
 		EC91B17A25885E2D00C7069C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B17925885E2D00C7069C /* SceneDelegate.swift */; };
 		EC91B17C25885E2D00C7069C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B17B25885E2D00C7069C /* ViewController.swift */; };
 		EC91B17F25885E2D00C7069C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC91B17D25885E2D00C7069C /* Main.storyboard */; };
 		EC91B18125885E2F00C7069C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC91B18025885E2F00C7069C /* Assets.xcassets */; };
 		EC91B18425885E2F00C7069C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC91B18225885E2F00C7069C /* LaunchScreen.storyboard */; };
+		EC91B18D25885EE200C7069C /* CafeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B18C25885EE200C7069C /* CafeCollectionViewController.swift */; };
+		EC91B1902588618000C7069C /* CafeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B18F2588618000C7069C /* CafeCollectionViewCell.swift */; };
+		EC91B194258870BA00C7069C /* CafeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91B193258870BA00C7069C /* CafeStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC3DBB912588AB8D00CEF798 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EC91B17425885E2D00C7069C /* CityCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC91B17725885E2D00C7069C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC91B17925885E2D00C7069C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		EC91B18025885E2F00C7069C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC91B18325885E2F00C7069C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC91B18525885E2F00C7069C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC91B18C25885EE200C7069C /* CafeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCollectionViewController.swift; sourceTree = "<group>"; };
+		EC91B18F2588618000C7069C /* CafeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC91B193258870BA00C7069C /* CafeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				EC91B17925885E2D00C7069C /* SceneDelegate.swift */,
 				EC91B17B25885E2D00C7069C /* ViewController.swift */,
 				EC91B17D25885E2D00C7069C /* Main.storyboard */,
+				EC3DBB912588AB8D00CEF798 /* DetailViewController.swift */,
+				EC91B18C25885EE200C7069C /* CafeCollectionViewController.swift */,
+				EC91B193258870BA00C7069C /* CafeStore.swift */,
+				EC91B18F2588618000C7069C /* CafeCollectionViewCell.swift */,
 				EC91B18025885E2F00C7069C /* Assets.xcassets */,
 				EC91B18225885E2F00C7069C /* LaunchScreen.storyboard */,
 				EC91B18525885E2F00C7069C /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC91B194258870BA00C7069C /* CafeStore.swift in Sources */,
 				EC91B17C25885E2D00C7069C /* ViewController.swift in Sources */,
 				EC91B17825885E2D00C7069C /* AppDelegate.swift in Sources */,
 				EC91B17A25885E2D00C7069C /* SceneDelegate.swift in Sources */,
+				EC91B18D25885EE200C7069C /* CafeCollectionViewController.swift in Sources */,
+				EC91B1902588618000C7069C /* CafeCollectionViewCell.swift in Sources */,
+				EC3DBB922588AB8D00CEF798 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
